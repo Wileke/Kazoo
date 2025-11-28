@@ -187,3 +187,57 @@ class Aklass:
 objekt = Aklass()
 print(objekt)
 print(objekt.b)
+
+
+# objekt = Aklass()
+# print(objekt)
+# print(objekt.b)
+
+
+# A = {1, 2, 3}
+# B = {3, 4, 5}
+
+# print(A | B)    # Union
+# # {1, 2, 3, 4, 5}
+# print(A & B)    # Snitt
+# # {3}
+# print(A - B)    # Skillnad
+# # {1, 2}
+# print(A ^ B)    # Symmetrisk Skillnad
+# # {1, 2, 4, 5}
+
+
+# class Nummer1:
+#     def __init__(self, tal):
+#         self.tal = tal
+
+#     def metoden(self, parametern):
+#         nyttTal = 2 ** parametern
+#         return nyttTal
+
+# class Nummer2(Nummer1):
+#     def __init__(self, annatTal):
+#         self.banger = annatTal + self.metoden(3)
+#     def __str__(self):
+#         return str(self.banger)
+
+# crazy = Nummer2(4)
+# print(crazy) #12
+
+a = input()
+b = input()
+a = float(a)
+b = float(b)
+
+if a > b:
+    print("a störst")
+elif b > a:
+    print("b störst")
+else:
+    print("lika stora)")
+
+
+FILNAMN = "txt.txt"
+filnamn = "hej.py"
+
+filnamn = 123
